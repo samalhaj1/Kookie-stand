@@ -9,13 +9,18 @@ return Math.floor(Math.random() * (max - min + 1) + min);}
 let salesAverge = [];
 // constructor
 // this will be the creator of my objects
-function Location(city, min, max, avgKookie) {
+
+
+function location(city, min, max, avgKookie) {
+
     this.city = city;
     this.min= min;
     this.max = max;
     this.avgKookie=avgKookie;
     this.totalCookies=0;
+
     salesAverge.push(this);
+
 
     this.CustomersNumbers=[];
     // method
@@ -27,11 +32,7 @@ function Location(city, min, max, avgKookie) {
 
     
 }
-let location1=new Location("Seattle",23,65,6.3);
-let location2=new Location("Tokyo",3,24,1.2);
-let location3=new Location("Dubai",11,38,3.7);
-let location4=new Location("Paris",20,38,2.3);
-let location5=new Location("Lima",2,16,4.6);
+
 
 
 
@@ -40,4 +41,13 @@ let location5=new Location("Lima",2,16,4.6);
     // const element = array[index];
     
 // }
+
+
+    
+}
+let location1=new location("Seattle",23,65,6.3);
+let location2=new location("Tokyo",3,24,1.2);
+let location3=new location("Dubai",11,38,3.7);
+let location4=new location("Paris",20,38,2.3);
+let location5=new location("Lima",2,16,4.6);
 
