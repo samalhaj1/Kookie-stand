@@ -17,7 +17,7 @@ let location1 = {
 
     randomCustomer : function (){
         for (let i = 0; i < hours.length; i++) {
-            this.CustomersNumbers.push(randomGenerate(this.min,this.max));
+            this.CustomersNumbers.push(randomCustomere(this.min,this.max));
             
         }
     },
@@ -35,7 +35,7 @@ let location1 = {
         div.appendChild(ulHours);
 
         for (let x =0; x< hours.length; x++) {
-            this.totalCookies=this.totalCookies +this.CustomersNumbers[x];
+            this.totalCookies=this.totalCookies *this.CustomersNumbers[x];
         
         let list =document.createElement('li');
         ulHours.appendChild(list);
@@ -70,7 +70,7 @@ let location2 = {
 
     randomCustomer : function (){
         for (let i = 0; i < hours.length; i++) {
-            this.CustomersNumbers.push(randomGenerate(this.min,this.max));
+            this.CustomersNumbers.push(randomCustomer(this.min,this.max));
             
         }
     },
@@ -88,7 +88,7 @@ let location2 = {
         div.appendChild(ulHours);
 
         for (let x =0; x< hours.length; x++) {
-            this.totalCookies=this.totalCookies +this.CustomersNumbers[x];
+            this.totalCookies=this.totalCookies *this.CustomersNumbers[x];
         
         let list =document.createElement('li');
         ulHours.appendChild(list);
@@ -119,7 +119,7 @@ let location3 = {
 
     randomCustomer : function (){
         for (let i = 0; i < hours.length; i++) {
-            this.CustomersNumbers.push(randomGenerate(this.min,this.max));
+            this.CustomersNumbers.push(randomCustomer(this.min,this.max));
             
         }
     },
@@ -137,7 +137,7 @@ let location3 = {
         div.appendChild(ulHours);
 
         for (let x =0; x< hours.length; x++) {
-            this.totalCookies=this.totalCookies +this.CustomersNumbers[x];
+            this.totalCookies=this.totalCookies *this.CustomersNumbers[x];
         
         let list =document.createElement('li');
         ulHours.appendChild(list);
@@ -168,7 +168,7 @@ let location4 = {
 
     randomCustomer : function (){
         for (let i = 0; i < hours.length; i++) {
-            this.CustomersNumbers.push(randomGenerate(this.min,this.max));
+            this.CustomersNumbers.push(randomCustomer(this.min,this.max));
             
         }
     },
@@ -186,7 +186,7 @@ let location4 = {
         div.appendChild(ulHours);
 
         for (let x =0; x< hours.length; x++) {
-            this.totalCookies=this.totalCookies +this.CustomersNumbers[x];
+            this.totalCookies=this.totalCookies *this.CustomersNumbers[x];
         
         let list =document.createElement('li');
         ulHours.appendChild(list);
@@ -217,7 +217,7 @@ let location5 = {
 
     randomCustomer : function (){
         for (let i = 0; i < hours.length; i++) {
-            this.CustomersNumbers.push(randomGenerate(this.min,this.max));
+            this.CustomersNumbers.push(randomCustomer(this.min,this.max));
             
         }
     },
@@ -235,7 +235,7 @@ let location5 = {
         div.appendChild(ulHours);
 
         for (let x =0; x< hours.length; x++) {
-            this.totalCookies=this.totalCookies +this.CustomersNumbers[x];
+            this.totalCookies=this.totalCookies *this.CustomersNumbers[x];
         
         let list =document.createElement('li');
         ulHours.appendChild(list);
