@@ -103,9 +103,9 @@ function makeFooter(){
     footerTh.textContent = 'Totals'
     let totalOfTotals = 0;
     for (let i = 0; i < workHour.length; i++) {
-        let totalEachHour = 0
+        let totalEachHour = 0;
         for (let j = 0; j < locationsArray.length; j++) {
-            totalEachHour += locationsArray[j].cookiesEachHour[j];
+            totalEachHour += locationsArray[j].cookiesEachHour[i];
         }
         totalOfTotals += totalEachHour;
         let footerData = document.createElement('td');
@@ -117,3 +117,43 @@ function makeFooter(){
     finalTd.textContent = totalOfTotals
 }
 makeFooter();
+
+// adding a form
+
+// getting te form id and store it inside a variable
+const formSales = document.getElementById("formy");
+
+// stop the page from refreshing by making a call back function
+formSales.addEventListener('submit', function(event){
+event.preventDefault();
+const newName = event.target.nameField.value;
+const newMin = event.target.minOfCookies.value;
+const newMax = event.target.maxOfCookies.value; 
+const newAVG = event.target.avgCookies.value;
+
+let userInput = new Location(newName, newMin, newMax, newAVG);
+tableElement.deleteRow(tableElement.rows.length -1);
+userInput.calCustomersEachHour();
+userInput.calcCookiesEachHour();
+
+userInput.render();
+
+
+makeFooter();
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
