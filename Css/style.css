@@ -1,7 +1,63 @@
+
+
 table{
     border-collapse: collapse;
+    background-color: rgb(218, 191, 155);
+}
+#mai{
+    
+    background-image: url("gsalmon-1.jpg");
+}
+
+    
+
+#formy{
+
+text-align: center;
+font-size: larger;
+font-family: fantasy;
+color: rgb(17, 50, 71);
+
 }
 
 tr, th, td {
     border : 2px solid black;
+
 }
+#social{
+
+   float: right;
+    }
+    #logo{
+        width: 60px;
+       
+    }
+    
+    h1{
+        padding-top: 20px;
+        font-size: 30px;
+        font-family:cursive;
+        color:rgb(10, 56, 71);
+        text-align: center;
+    
+    }
+    h2{
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+    #ima{
+        background-color: rgb(157, 194, 207);
+    
+    }
+    #img1{
+        padding-bottom: 50px;
+        
+    }
+    header{
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        height: 80px;
+        background-color: rgb(179, 151, 114);
+        padding-left: 1%;
+        margin-left: -1%;
+    }
