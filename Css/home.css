@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+body#ima {
+    height: 100%;
+    color:rgb(150, 82, 82);
+    font-family: 'Kirang Haerang', cursive;
+    background-image: url('../images/gsalmon-1.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main{
+   
+}
