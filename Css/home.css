@@ -23,6 +23,48 @@ header {
     align-items: center;
 }
 
-main{
-   
+body main h1 {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: darkslategrey;
+   text-align: center;
+   font-size: 50px;
+   font-weight: bolder;
+   background-color: rgba(114, 110, 110, 0.5);
+}
+
+body main p {
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+
+body main button {
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 40px;
+    margin-bottom: 35px;
+
+}
+body main button a {
+    color:black;
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+
+body main h3 {
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+body main form {
+    text-align: center;
+    width: 400px;
+    margin-left: 650px;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+    background-color:rgba(219, 182, 126, 0.753);
 }
